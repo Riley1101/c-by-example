@@ -35,4 +35,14 @@ void fillArray() {
   };
 }
 
-int main() { fillArray(); }
+int power(int m, int n) {
+  int i, p;
+  p = 1;
+  for (i = 1; i < n; ++i) {
+    p = p * m;
+    printf("Power of %d is %d\n", p, n);
+  }
+  return p;
+}
+
+int main() {}
