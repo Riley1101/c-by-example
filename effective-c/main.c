@@ -1,32 +1,38 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-void swap(int a, int b) {
-  int t = a;
-  a = b;
-  b = t;
-  printf("first");
-  printf("a = %d\n", a);
-  printf("b = %d\n", b);
+void countChar() {
+  int c = getchar();
+  if (c == EOF) {
+    printf("Value of EOF :  %d\n", c);
+  }
+  while (c != EOF) {
+    printf("Text being typed: %d\n", c);
+    putchar(c);
+    c = getchar();
+  }
 }
 
-void pointer_swap(int *pa, int *pb) {
-  int a = *pa;
-  *pa = *pb;
-  *pb = a;
-
-  printf("a = %d\n", *pa);
-  printf("b = %d\n", *pb);
-  return;
+void fillArray() {
+  int c, i, nwhite, nother;
+  int ndigit[10];
+  nwhite = nother = 0;
+  for (i = 0; i < 10; ++i) {
+    ndigit[i] = 0;
+  }
+  while ((c = getchar()) != EOF) {
+    if (c >= '0' && c <= '9') {
+      ++ndigit[c - '0'];
+    } else if (c == ' ' || c == '\n' || c == '\t') {
+      ++nwhite;
+    } else {
+      ++nother;
+    }
+  }
+  for (i = 0; i < 10; ++i) {
+    printf("digits = ");
+    printf("%d\n", ndigit[i]);
+    printf(",white spaces %d\n, other %d\n", nwhite, nother);
+  };
 }
 
-int main(void) {
-  int a = 21;
-  int b = 14;
-  pointer_swap(&a, &b);
-
-  printf("second");
-  printf("a = %d\n", a);
-  printf("b = %d\n", b);
-  return EXIT_SUCCESS;
-}
+int main() { fillArray(); }

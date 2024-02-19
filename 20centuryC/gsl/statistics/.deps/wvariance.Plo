@@ -1,0 +1,73 @@
+wvariance.lo: wvariance.c \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/stdc-predef.h \
+ ../config.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/math.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/libc-header-start.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/features.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/features-time64.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/wordsize.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/timesize.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/sys/cdefs.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/long-double.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/gnu/stubs.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/gnu/stubs-64.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/types.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/typesizes.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/time64.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/math-vector.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/libm-simd-decl-stubs.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/floatn.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/floatn-common.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/flt-eval-method.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/fp-logb.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/fp-fast.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/mathcalls-helper-functions.h \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/mathcalls.h \
+ ../gsl/gsl_statistics.h ../gsl/gsl_statistics_long_double.h \
+ /nix/store/qs1nwzbp2ml3cxzsxihn82hl0w73snr0-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include/stddef.h \
+ ../gsl/gsl_statistics_double.h ../gsl/gsl_statistics_float.h \
+ ../gsl/gsl_statistics_ulong.h ../gsl/gsl_statistics_long.h \
+ ../gsl/gsl_statistics_uint.h ../gsl/gsl_statistics_int.h \
+ ../gsl/gsl_statistics_ushort.h ../gsl/gsl_statistics_short.h \
+ ../gsl/gsl_statistics_uchar.h ../gsl/gsl_statistics_char.h \
+ ../templates_on.h wvariance_source.c ../templates_off.h
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/stdc-predef.h:
+../config.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/math.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/libc-header-start.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/features.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/features-time64.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/wordsize.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/timesize.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/sys/cdefs.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/long-double.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/gnu/stubs.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/gnu/stubs-64.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/types.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/typesizes.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/time64.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/math-vector.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/libm-simd-decl-stubs.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/floatn.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/floatn-common.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/flt-eval-method.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/fp-logb.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/fp-fast.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/mathcalls-helper-functions.h:
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/bits/mathcalls.h:
+../gsl/gsl_statistics.h:
+../gsl/gsl_statistics_long_double.h:
+/nix/store/qs1nwzbp2ml3cxzsxihn82hl0w73snr0-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/include/stddef.h:
+../gsl/gsl_statistics_double.h:
+../gsl/gsl_statistics_float.h:
+../gsl/gsl_statistics_ulong.h:
+../gsl/gsl_statistics_long.h:
+../gsl/gsl_statistics_uint.h:
+../gsl/gsl_statistics_int.h:
+../gsl/gsl_statistics_ushort.h:
+../gsl/gsl_statistics_short.h:
+../gsl/gsl_statistics_uchar.h:
+../gsl/gsl_statistics_char.h:
+../templates_on.h:
+wvariance_source.c:
+../templates_off.h:

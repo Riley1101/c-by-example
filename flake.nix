@@ -25,6 +25,7 @@
                 ];
                 shellHook = ''
                     echo "Hello, Mom!"
+                    export TEST="ABC"
                 '';
             };
     };

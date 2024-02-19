@@ -1,0 +1,9 @@
+inline.lo: inline.c \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/stdc-predef.h \
+ ../build.h ../gsl/gsl_complex_math.h ../gsl/gsl_inline.h \
+ ../gsl/gsl_complex.h
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/stdc-predef.h:
+../build.h:
+../gsl/gsl_complex_math.h:
+../gsl/gsl_inline.h:
+../gsl/gsl_complex.h:

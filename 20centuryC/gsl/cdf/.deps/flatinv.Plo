@@ -1,0 +1,6 @@
+flatinv.lo: flatinv.c \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/stdc-predef.h \
+ ../config.h ../gsl/gsl_cdf.h
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/stdc-predef.h:
+../config.h:
+../gsl/gsl_cdf.h:

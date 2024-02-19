@@ -1,0 +1,8 @@
+minmax.lo: minmax.c \
+ /nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/stdc-predef.h \
+ ../config.h ../build.h ../gsl/gsl_minmax.h ../gsl/gsl_inline.h
+/nix/store/iwxsnv263d6gmqrs9wxpzm6l4p7cdz6j-glibc-2.38-44-dev/include/stdc-predef.h:
+../config.h:
+../build.h:
+../gsl/gsl_minmax.h:
+../gsl/gsl_inline.h:
