@@ -25,7 +25,7 @@
                 ];
                 shellHook = ''
                     echo "Hello, Mom!"
-                    export TEST="ABC"
+                    export CFLAGS="-lm"
                 '';
             };
     };

@@ -1,6 +1,8 @@
 #include <assert.h>
 #include <complex.h>
 #include <ctype.h>
+#include <errno.h>
+#include <error.h>
 #include <math.h>
 #include <stdalign.h>
 #include <stdarg.h>
@@ -83,5 +85,12 @@ int main() {
   printf("isalnum %d\n", isalnum('a') ? 1 : 0);
   printf("isalnum %d\n", isalnum('B') ? 1 : 0);
   printf("isalnum %d\n", ispunct('?') ? 1 : 0);
+
+  errno = 0;
+  exp(1e+30);
+  printf("errno is %d\n", errno);
+  if (errno == EDOM) {
+    perror("sqrt of -1 is not valid");
+  }
   return 0;
 }
